@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hello Cordova</title>
+<script type="text/javascript" charset="UTF-8" src="cordova-1.8.0.js"></script>
+<script type="text/javascript" src="childbrowser.js"></script>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"></link>
+<link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.min.css"></link>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap-tab.js"></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCX_24oEW5IR7-YHE70MAiRqaGRdYgdgms&sensor=false"></script>
+<script type="text/javascript" src="myJs.js" charset="UTF-8"></script>
+</head>
+<body onLoad="onLoad();">
+    <div id="main_div" style="width: 100%; height: 100%;">
+	<div style="width: 100%; height: 100%">
+		<img src="frontImage.jpg" style="width: 100%; height: 90%;"></img><br /><br />
+		<div style="text-align: center">
+			<button type="button" id="search-btn" class="btn btn-primary" onclick="searchRestaurants();">Search Restaurants</button>
+		</div>
+	</div>
+	<div style="clear: both;"></div>
+    </div>
+</body>
+</html>
