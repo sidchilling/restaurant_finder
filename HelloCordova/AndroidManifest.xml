@@ -32,10 +32,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity 
-            android:name="MyActivity"
-            android:label="MyActivity">
-        </activity>
     </application>
 
 </manifest>

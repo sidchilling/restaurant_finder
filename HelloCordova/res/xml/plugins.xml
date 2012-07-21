@@ -35,6 +35,4 @@
     <plugin name="Capture" value="org.apache.cordova.Capture"/>
     <plugin name="Battery" value="org.apache.cordova.BatteryListener"/>
     <plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
-    <plugin name="ChildBrowser" value="com.phonegap.plugins.childBrowser.ChildBrowser" />
-    <plugin name="DirectoryListPlugin" value="com.trial.phonegap.plugin.directorylisting.DirectoryListPlugin" />
 </plugins>
